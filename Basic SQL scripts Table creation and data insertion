@@ -1,1 +1,9 @@
-
+Create a table Query :
+CREATE TABLE students (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  gender TEXT NOT NULL
+);
+Simple insertion in to the table :
+INSERT INTO student VALUES (1, 'Ryan', 'M');
+INSERT INTO student VALUES (2, 'Joanna', 'F');
