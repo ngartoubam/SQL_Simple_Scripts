@@ -5,5 +5,5 @@ CREATE TABLE students (
   gender TEXT NOT NULL
 );
 Simple insertion in to the table :
-INSERT INTO student VALUES (1, 'Ryan', 'M');
-INSERT INTO student VALUES (2, 'Joanna', 'F');
+INSERT INTO students VALUES (1, 'Ryan', 'M');
+INSERT INTO students VALUES (2, 'Joanna', 'F');
