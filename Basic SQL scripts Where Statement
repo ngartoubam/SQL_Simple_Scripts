@@ -1,1 +1,49 @@
+Where Statement
+=, <>, <, >, And, Or, Like, Null, Not Null, In
+
+Select *
+FROM EmployeeDemographics
+Where FirstName <> 'Jim'
+
+Select *
+FROM EmployeeDemographics
+Where Age >= 30
+
+Select *
+FROM EmployeeDemographics
+Where Age <= 32
+
+Select *
+FROM EmployeeDemographics
+Where Age <= 32 AND  Gender ='Male'
+
+Select *
+FROM EmployeeDemographics
+Where Age <= 32 OR  Gender ='Male'
+
+Select *
+FROM EmployeeDemographics
+Where LastName LIKE 'S%'
+
+
+Select *
+FROM EmployeeDemographics
+Where LastName LIKE '%S%'
+
+
+Select *
+FROM EmployeeDemographics
+Where LastName LIKE 'S%ott%'
+
+
+Select *
+FROM EmployeeDemographics
+Where FirstName is Not NULL
+
+
+Select *
+FROM EmployeeDemographics
+Where FirstName IN ('Jim','Michael')
+
+
 
