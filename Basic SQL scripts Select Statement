@@ -1,2 +1,26 @@
 Select statement :
 Top, Distinct, Count, As, Max, Min, Avg
+
+Select Top 5 *
+From EmployeeDemographics
+
+Select distinct(EmployeeID)
+From EmployeeDemographics
+
+Select count(LastName)
+From EmployeeDemographics
+
+Select count(LastName) As LastNameCount
+From EmployeeDemographics
+
+Select Max(Salary)
+From EmployeeSalary
+
+Select Min(Salary)
+From EmployeeSalary
+
+Select AVG(Salary)
+From EmployeeSalary
+
+
+
