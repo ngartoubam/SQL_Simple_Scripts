@@ -1,1 +1,33 @@
+Group By, Order By
+
+Select *
+From EmployeeDemographics
+
+Select Gender
+From EmployeeDemographics
+Group by Gender
+
+Select Gender, count(Gender)
+From EmployeeDemographics
+Group by Gender
+
+Select Gender,Age, count(Gender)
+From EmployeeDemographics
+Group by Gender, Age
+
+Select Gender,Age, count(Gender)
+From EmployeeDemographics
+Group by Gender, count(Gender)
+
+Select Gender, count(Gender) AS CountGender
+From EmployeeDemographics
+Where Age > 31
+Group by Gender
+Order by CountGender ASC
+
+Select Gender, count(Gender) AS CountGender
+From EmployeeDemographics
+Where Age > 31
+Group by Gender
+Order by CountGender DESC
 
